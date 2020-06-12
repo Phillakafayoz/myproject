@@ -22,7 +22,7 @@ db.on("error", error => console.error(error))
 db.on("open", () => console.log("Connected to Mongoose")) 
 
 
-
+app.get("asdasd");
 app.use('/', indexRouter)
 
 app.listen(process.env.PORT || 3000)
