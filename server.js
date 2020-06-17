@@ -3,8 +3,11 @@ if (process.env.NODE_ENV !== "production") {
 }
 const express = require('express')
 const app     = express()
+const bodyParser = require("body-parser")
+const multer  = require("multer")
+const Place = require("./models/places")
 
-
+app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs')
 app.set('views', __dirname + '/views')
 app.use(express.static('public'))

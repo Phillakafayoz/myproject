@@ -1,2 +1,17 @@
-body{
+body{    
     font-family: 'Sriracha', cursive;}
+.jumbotron{
+    margin-top: 80px;
+   
+}    
+    /* styling for adding new place page */
+.row{
+    margin-top: 60px;
+}
+#addPlace{
+    width: 30%;
+    margin: 25px auto;}
+h1 {
+    text-align: center;
+}
+
